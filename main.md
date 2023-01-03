@@ -53,7 +53,7 @@ for (int x = 0; x < 100; x += 2) {
 How many times does line 3 get repeated?
 
 ```
-for (int x = 1; x < 100; x += 2) {
+for (int x = 0; x < 100; x += 2) {
   for (int y = 0; y < 5; y += 1) {
     System.out.println("Loop has iterated!");
   }
@@ -67,7 +67,7 @@ What is the value of the variable x when the loop is terminated?
 What is the value of the variable y when the loop is terminated?
 
 ```
-for (int x = 0; x < 33; x *= 2) {
+for (int x = 1; x < 33; x *= 2) {
   for (int y = 0; y < 5; y += 1) {
     System.out.println("Loop has iterated!");
   }
